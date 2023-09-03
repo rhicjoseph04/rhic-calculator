@@ -104,11 +104,10 @@ body {
     font-size: 36px;
     margin-right: -4.6px;
     cursor: pointer;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 50px;
+    padding:0px 0px;
+    margin-top:10px;
+
 }
 
 .button:hover {
