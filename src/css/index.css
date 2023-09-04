@@ -11,11 +11,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url(https://pngimg.com/uploads/transformers/transformers_PNG3.png);
-    background-color: hsla(349, 85%, 5%, 0.943); 
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center center;
-     min-height: 100vh;
+    background-color: hsla(349, 85%, 5%, 0.943);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
 
 
 }
@@ -23,10 +23,11 @@ body {
 /* Navigation Menu Styles */
 
 #menu {
-    background-color: rgba(69, 7, 134, 0.5); 
-    color: #fff; 
-    padding: 10px 10px; /* Add padding to the top and bottom */
-    margin-top:0;
+    background-color: rgba(69, 7, 134, 0.5);
+    color: #fff;
+    padding: 10px 10px;
+    /* Add padding to the top and bottom */
+    margin-top: 0;
 }
 
 
@@ -41,20 +42,20 @@ body {
 
 #menu li {
     display: inline;
-   
+
     margin-right: 30px;
-    
+
 }
 
 #menu a {
     text-decoration: none;
-   
+
     color: #fff;
-   
+
     font-weight: bold;
-   
+
     font-size: 16px;
-   
+
 }
 
 /* Change link color on hover */
@@ -65,47 +66,78 @@ body {
 }
 
 
+/* Style for the search form */
+form.search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    margin-bottom:50px;
+}
+
+/* Style for the search input */
+form.search-button input.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 300px; /* Adjust the width as needed */
+}
+
+/* Style for the search button */
+form.search-button button.gradient-search-button {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #007BFF, #00A3FF);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover effect for the search button */
+form.search-button button.gradient-search-button:hover {
+    background: linear-gradient(to right, #b35100, #ffc400);
+}
+
 
 .calculator {
     max-width: 612px;
     margin: 0px auto;
-   
-    background-color: hsla(268, 72%, 44%, 0.279); 
-    border-radius:30px ;
-    background-position:center;
+
+    background-color: hsla(268, 72%, 44%, 0.279);
+    border-radius: 30px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-blend-mode:darken;
-    position:relative;
-    padding-bottom:10px;
-    padding-top:10px;
+    background-blend-mode: darken;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
-    
-  
-  
+
+
+
 
 }
 
-    .calculator .calculator-content {
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 30px; 
-        border-radius: 10px;
-        width: 100%; 
-        max-width: 400px; 
-        color: #fff; 
- 
+.calculator .calculator-content {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
 
-    
-    
-  
+
 
 }
 
 #output {
-    background-color: hwb(287 0% 96% / 0.067); 
+    background-color: hwb(287 0% 96% / 0.067);
     color: hwb(0 98% 2%);
     width: 100%;
     height: 80px;
@@ -115,13 +147,13 @@ body {
     padding: 0px 10px 0px 10px;
     box-shadow: 0px 0px 30px -5px #fff;
     box-sizing: border-box;
-    border-radius:50px;
- 
+    border-radius: 50px;
+
 }
 
 #buttons {
     margin-top: 15px;
-    
+
 }
 
 .button {
@@ -129,7 +161,7 @@ body {
     text-align: center;
     line-height: 70px;
     display: inline-block;
-    background-color:  hwb(229 32% 22% / 0.495);
+    background-color: hwb(229 32% 22% / 0.495);
     border: 1px solid #33ccff;
     height: 70px;
     width: 100px;
@@ -137,8 +169,8 @@ body {
     margin-right: -4.6px;
     cursor: pointer;
     border-radius: 50px;
-    padding:0px 0px;
-    margin-top:10px;
+    padding: 0px 0px;
+    margin-top: 10px;
     grid-auto-flow: column;
 
 }
@@ -154,8 +186,13 @@ body {
 }
 
 .number {
-    background-color: rgba(35, 99, 159, 0.735); 
-    
+    background-color: rgba(35, 99, 159, 0.735);
+
+}
+
+.number:hover{
+    background: linear-gradient(to right, #b35100, #ffc400);
+
 }
 
 .number:active {
@@ -222,7 +259,8 @@ body {
 
 
 footer {
-    background-color: rgba(69, 7, 134, 0.5); /* Replace with your desired transparency level */
+    background-color: rgba(69, 7, 134, 0.5);
+    /* Replace with your desired transparency level */
     color: #fff;
     text-align: center;
     position: fixed;
