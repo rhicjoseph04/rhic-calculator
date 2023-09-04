@@ -11,7 +11,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-image: url(https://pngimg.com/uploads/transformers/transformers_PNG3.png);
-    background-color: hsla(349, 85%, 5%, 0.943);
+    background-color: hsla(190, 11%, 43%, 0.283);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -109,7 +109,7 @@ form.search-button button.gradient-search-button:hover {
     max-width: 612px;
     margin: 0px auto;
     background-color: hsla(268, 72%, 44%, 0.279);
-    border-radius: 30px;
+    border-radius: 5px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -117,10 +117,7 @@ form.search-button button.gradient-search-button:hover {
     position: relative;
     padding-bottom: 10px;
     padding-top: 10px;
-
-
-
-
+  
 }
 
 .calculator .calculator-content {
@@ -129,12 +126,11 @@ form.search-button button.gradient-search-button:hover {
     left: 50%;
     transform: translateX(-50%);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 100%;
     max-width: 400px;
     color: #fff;
-   
-
+  
 }
 
 #output {
@@ -172,12 +168,14 @@ form.search-button button.gradient-search-button:hover {
     font-size: 36px;
     margin-right: -4.6px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 0px 0px;
     margin-top: 10px;
     grid-auto-flow: column;
-
-
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .button:hover {
