@@ -28,6 +28,7 @@ body {
     padding: 10px 10px;
     /* Add padding to the top and bottom */
     margin-top: 0;
+
 }
 
 
@@ -37,6 +38,7 @@ body {
     margin: 0;
     padding: 0;
     justify-content: center;
+    margin-left:10px;
 }
 
 
@@ -73,6 +75,7 @@ form.search-button {
     justify-content: center;
     position:relative;
     margin-bottom:50px;
+
 }
 
 /* Style for the search input */
@@ -101,10 +104,10 @@ form.search-button button.gradient-search-button:hover {
 }
 
 
+
 .calculator {
     max-width: 612px;
     margin: 0px auto;
-
     background-color: hsla(268, 72%, 44%, 0.279);
     border-radius: 30px;
     background-position: center;
@@ -114,7 +117,6 @@ form.search-button button.gradient-search-button:hover {
     position: relative;
     padding-bottom: 10px;
     padding-top: 10px;
-
 
 
 
@@ -131,8 +133,7 @@ form.search-button button.gradient-search-button:hover {
     width: 100%;
     max-width: 400px;
     color: #fff;
-
-
+   
 
 }
 
@@ -149,10 +150,13 @@ form.search-button button.gradient-search-button:hover {
     box-sizing: border-box;
     border-radius: 50px;
 
+
 }
 
 #buttons {
     margin-top: 15px;
+ 
+
 
 }
 
@@ -172,6 +176,7 @@ form.search-button button.gradient-search-button:hover {
     padding: 0px 0px;
     margin-top: 10px;
     grid-auto-flow: column;
+
 
 }
 
@@ -284,3 +289,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {}
