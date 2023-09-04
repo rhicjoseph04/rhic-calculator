@@ -10,9 +10,13 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: url(https://ak2.picdn.net/shutterstock/videos/21640798/thumb/1.jpg);
+    background-image: url(https://pngimg.com/uploads/transformers/transformers_PNG3.png);
+    background-color: hsla(349, 85%, 5%, 0.943); 
      background-size: cover;
      background-repeat: no-repeat;
+     background-position: center center;
+     min-height: 100vh;
+
 
 }
 
@@ -21,38 +25,36 @@ body {
 #menu {
     background-color: rgba(69, 7, 134, 0.5); 
     color: #fff; 
-    padding: 5px 0; /* Add padding to the top and bottom */
+    padding: 10px 10px; /* Add padding to the top and bottom */
+    margin-top:0;
 }
 
 
 /* Style the navigation list */
 #menu ul {
     list-style: none;
-    /* Remove list bullets */
     margin: 0;
-    /* Remove default margin */
     padding: 0;
-    /* Remove default padding */
+    justify-content: center;
 }
 
-/* Style the navigation items */
+
 #menu li {
     display: inline;
-    /* Display items horizontally */
-    margin-right: 20px;
-    /* Add spacing between items */
+   
+    margin-right: 30px;
+    
 }
 
-/* Style the navigation links */
 #menu a {
     text-decoration: none;
    
     color: #fff;
-    /* Text color for links */
+   
     font-weight: bold;
-    /* Make the text bold */
+   
     font-size: 16px;
-    /* Adjust font size */
+   
 }
 
 /* Change link color on hover */
@@ -66,13 +68,45 @@ body {
 
 .calculator {
     max-width: 612px;
-    margin: 100px auto;
+    margin: 0px auto;
+   
+    background-color: hsla(268, 72%, 44%, 0.279); 
+    border-radius:30px ;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-blend-mode:darken;
+    position:relative;
+    padding-bottom:10px;
+    padding-top:10px;
+
+    
   
+  
+
+}
+
+    .calculator .calculator-content {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 30px; 
+        border-radius: 10px;
+        width: 100%; 
+        max-width: 400px; 
+        color: #fff; 
+ 
+
+    
+    
+  
+
 }
 
 #output {
-    background-color: #000;
-    color: #fff;
+    background-color: hwb(287 0% 96% / 0.067); 
+    color: hwb(0 98% 2%);
     width: 100%;
     height: 80px;
     font-size: 48px;
@@ -82,22 +116,20 @@ body {
     box-shadow: 0px 0px 30px -5px #fff;
     box-sizing: border-box;
     border-radius:50px;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    -ms-border-radius:50px;
-    -o-border-radius:50px;
+ 
 }
 
 #buttons {
     margin-top: 15px;
+    
 }
 
 .button {
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     line-height: 70px;
     display: inline-block;
-    background-color: #595959;
+    background-color:  hwb(229 32% 22% / 0.495);
     border: 1px solid #33ccff;
     height: 70px;
     width: 100px;
@@ -107,6 +139,7 @@ body {
     border-radius: 50px;
     padding:0px 0px;
     margin-top:10px;
+    grid-auto-flow: column;
 
 }
 
@@ -121,11 +154,12 @@ body {
 }
 
 .number {
-    background-color: #c27019;
+    background-color: rgba(35, 99, 159, 0.735); 
+    
 }
 
 .number:active {
-    background-color: #80b3ff;
+    background-color: #9380ff;
     box-shadow: 0px 0px 30px 0px #000;
 }
 
@@ -196,6 +230,7 @@ footer {
     left: 0;
     width: 100%;
     padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 footer p {
