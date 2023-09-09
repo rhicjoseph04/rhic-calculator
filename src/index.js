@@ -17,36 +17,8 @@ Array.prototype.forEach.call(buttons, function (button) {
             divide();
         } else if (button.textContent === "+/-") {
             plusMinus();
-        } else if (button.textContent === "<=") {
-            backspace();
         } else if (button.textContent === "%") {
             percent();
-        } else if (button.textContent === "π") {
-            pi();
-        } else if (button.textContent === "sq") {
-            square();
-        } else if (button.textContent === "sqrt") {
-            squareRoot();
-        } else if (button.textContent === "sin") {
-            sin();
-        } else if (button.textContent === "cos") {
-            cos();
-        } else if (button.textContent === "tan") {
-            tan();
-        } else if (button.textContent === "log") {
-            log();
-        } else if (button.textContent === "ln") {
-            ln();
-        } else if (button.textContent === "^") {
-            exponent();
-        } else if (button.textContent === "n!") {
-            factorial();
-        } else if (button.textContent === "exp") {
-            exp();
-        } else if (button.textContent === "radians") {
-            radians();
-        } else if (button.textContent === "degrees") {
-            degrees();
         }
     });
 });
@@ -120,57 +92,11 @@ function factorial() {
     }
 }
 
-function pi() {
-    // if(display.value === "") {
-    //   display.value = Math.PI;
-    // }
-    display.value = (display.value * Math.PI);
-}
-
-function square() {
-    display.value = eval(display.value * display.value);
-}
-
-function squareRoot() {
-    display.value = Math.sqrt(display.value);
-}
-
 function percent() {
     display.value = display.value / 100;
 }
 
-function sin() {
-    display.value = Math.sin(display.value);
-}
 
-function cos() {
-    display.value = Math.cos(display.value);
-}
 
-function tan() {
-    display.value = Math.tan(display.value);
-}
 
-function log() {
-    display.value = Math.log10(display.value);
-}
 
-function ln() {
-    display.value = Math.log(display.value);
-}
-
-function exponent() {
-    display.value = display.value + "^";
-}
-
-function exp() {
-    display.value = Math.exp(display.value);
-}
-
-function radians() {
-    display.value = display.value * (Math.PI / 180);
-}
-
-function degrees() {
-    display.value = display.value * (180 / Math.PI);
-}

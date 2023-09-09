@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 100vh;
+    justify-content:center;
 
 
 }
@@ -68,56 +69,23 @@ body {
 }
 
 
-/* Style for the search form */
-form.search-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position:relative;
-    margin-bottom:50px;
-
-}
-
-/* Style for the search input */
-form.search-button input.form-control {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-right: 5px;
-    width: 300px; /* Adjust the width as needed */
-}
-
-/* Style for the search button */
-form.search-button button.gradient-search-button {
-    padding: 10px 20px;
-    background: linear-gradient(to right, #007BFF, #00A3FF);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease-in-out;
-}
-
-/* Hover effect for the search button */
-form.search-button button.gradient-search-button:hover {
-    background: linear-gradient(to right, #b35100, #ffc400);
-}
-
-
-
 .calculator {
-    max-width: 612px;
+    max-width: 410px;
     margin: 0px auto;
-    background-color: hsla(268, 72%, 44%, 0.279);
-    border-radius: 5px;
+    background-color: hsla(34, 81%, 6%, 0.664);
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6babe077989067.5c985ce7c3cc4.png);
+    border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: darken;
     position: relative;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-left:10px;
+
   
+   
 }
 
 .calculator .calculator-content {
@@ -128,8 +96,10 @@ form.search-button button.gradient-search-button:hover {
     padding: 30px;
     border-radius: 5px;
     width: 100%;
+    height:100%;
     max-width: 400px;
     color: #fff;
+    justify-content: center;
   
 }
 
@@ -172,10 +142,7 @@ form.search-button button.gradient-search-button:hover {
     padding: 0px 0px;
     margin-top: 10px;
     grid-auto-flow: column;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+  
 }
 
 .button:hover {
@@ -247,18 +214,7 @@ form.search-button button.gradient-search-button:hover {
     box-shadow: 0px 0px 30px 0px #000;
 }
 
-#radians,
-#degrees {
-    width: 200px;
-}
 
-#radians:hover {
-    background-color: #00b38f;
-}
-
-#degrees:hover {
-    background-color: #00b38f;
-}
 
 
 footer {
